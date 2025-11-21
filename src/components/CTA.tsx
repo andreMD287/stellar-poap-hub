@@ -11,24 +11,24 @@ const CTA = () => {
           </div>
           
           <div className="space-y-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Comienza Ahora
+            <h2 className="text-4xl md:text-5xl font-anton uppercase text-foreground">
+              COMIENZA AHORA
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Crea tu primer evento POAP en Stellar y revoluciona la forma de certificar asistencia
+            <p className="text-xl font-lora italic text-muted-foreground max-w-2xl mx-auto">
+              Crea tu primer evento SPOT en Stellar y revoluciona la forma de certificar asistencia
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button variant="hero" size="lg" className="text-lg px-10">
+            <Button variant="hero" size="lg" className="text-lg px-10 font-inter">
               Crear mi Primer Evento
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-10">
+            <Button variant="outline" size="lg" className="text-lg px-10 font-inter">
               Ver Documentación
             </Button>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-6 pt-8 text-sm text-muted-foreground">
+          <div className="flex flex-wrap justify-center gap-6 pt-8 text-sm font-inter text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-primary" />
               <span>Blockchain Stellar</span>

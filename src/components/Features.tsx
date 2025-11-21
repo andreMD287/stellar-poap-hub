@@ -5,7 +5,7 @@ const features = [
   {
     icon: QrCode,
     title: "QR Codes Únicos",
-    description: "Genera códigos QR únicos para cada asistente. Escanea y reclama tu POAP al instante.",
+    description: "Genera códigos QR únicos para cada asistente. Escanea y reclama tu SPOT al instante.",
     gradient: "from-primary to-primary-glow",
   },
   {
@@ -17,19 +17,19 @@ const features = [
   {
     icon: MapPin,
     title: "Geolocalización",
-    description: "Reclama POAPs basados en tu ubicación. Perfecto para eventos presenciales con radio personalizado.",
+    description: "Reclama SPOTs basados en tu ubicación. Perfecto para eventos presenciales con radio personalizado.",
     gradient: "from-accent to-primary",
   },
   {
     icon: KeyRound,
     title: "Códigos Compartidos",
-    description: "Códigos especiales para grupos. Distribuye múltiples POAPs con un solo código.",
+    description: "Códigos especiales para grupos. Distribuye múltiples SPOTs con un solo código.",
     gradient: "from-primary to-accent",
   },
   {
     icon: Shield,
     title: "Seguro en Stellar",
-    description: "Todos los POAPs son NFTs verificables en la blockchain de Stellar. Inmutables y auténticos.",
+    description: "Todos los SPOTs son NFTs verificables en la blockchain de Stellar. Inmutables y auténticos.",
     gradient: "from-secondary to-accent",
   },
   {
@@ -45,10 +45,10 @@ const Features = () => {
     <section className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Distribución Flexible
+          <h2 className="text-4xl md:text-5xl font-anton uppercase text-foreground">
+            DISTRIBUCIÓN FLEXIBLE
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl font-lora italic text-muted-foreground max-w-2xl mx-auto">
             Múltiples métodos de distribución para adaptarse a cualquier tipo de evento
           </p>
         </div>
@@ -63,10 +63,10 @@ const Features = () => {
                 <div className={`w-12 h-12 rounded-lg bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-4`}>
                   <feature.icon className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-xl">{feature.title}</CardTitle>
+                <CardTitle className="text-xl font-lora font-semibold">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-base">
+                <CardDescription className="text-base font-inter">
                   {feature.description}
                 </CardDescription>
               </CardContent>
