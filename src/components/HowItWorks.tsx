@@ -5,7 +5,7 @@ const steps = [
   {
     icon: Users,
     title: "Crea tu Evento",
-    description: "Define los detalles de tu evento, cantidad de POAPs y método de distribución.",
+    description: "Define los detalles de tu evento, cantidad de SPOTs y método de distribución.",
     step: "01",
   },
   {
@@ -17,13 +17,13 @@ const steps = [
   {
     icon: Share2,
     title: "Distribuye",
-    description: "Usa QR, links, geolocalización o códigos para distribuir tus POAPs.",
+    description: "Usa QR, links, geolocalización o códigos para distribuir tus SPOTs.",
     step: "03",
   },
   {
     icon: Award,
     title: "Colecciona",
-    description: "Los asistentes reclaman y coleccionan POAPs verificables en la blockchain.",
+    description: "Los asistentes reclaman y coleccionan SPOTs verificables en la blockchain.",
     step: "04",
   },
 ];
@@ -33,11 +33,11 @@ const HowItWorks = () => {
     <section className="py-20 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            ¿Cómo Funciona?
+          <h2 className="text-4xl md:text-5xl font-anton uppercase text-foreground">
+            ¿CÓMO FUNCIONA?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Cuatro pasos simples para crear y distribuir tus POAPs
+          <p className="text-xl font-lora italic text-muted-foreground max-w-2xl mx-auto">
+            Cuatro pasos simples para crear y distribuir tus SPOTs
           </p>
         </div>
 
@@ -60,8 +60,8 @@ const HowItWorks = () => {
                   </span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold text-foreground">{step.title}</h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+                  <h3 className="text-xl font-lora font-semibold text-foreground">{step.title}</h3>
+                  <p className="font-inter text-muted-foreground">{step.description}</p>
                 </div>
               </CardContent>
             </Card>
