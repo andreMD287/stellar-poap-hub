@@ -43,7 +43,7 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Stellar brand gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(47 98% 57%), hsl(185 100% 35%));
+    --gradient-primary: linear-gradient(135deg, hsl(47 98% 57%), hsl(251 60% 79%));
     --gradient-accent: linear-gradient(135deg, hsl(251 60% 79%), hsl(47 98% 57%));
     --gradient-hero: linear-gradient(180deg, hsl(210 11% 97%), hsl(47 98% 95%));
     
@@ -83,7 +83,7 @@ All colors MUST be HSL.
     --input: 210 100% 25%;
     --ring: 47 98% 57%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(47 98% 57%), hsl(185 100% 35%));
+    --gradient-primary: linear-gradient(135deg, hsl(47 98% 57%), hsl(251 60% 79%));
     --gradient-accent: linear-gradient(135deg, hsl(251 60% 79%), hsl(47 98% 57%));
     --gradient-hero: linear-gradient(180deg, hsl(210 100% 18%), hsl(0 0% 6%));
     
