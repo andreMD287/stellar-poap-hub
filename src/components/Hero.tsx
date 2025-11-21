@@ -24,7 +24,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl font-lora italic text-muted-foreground max-w-2xl mx-auto">
-              Crea, distribuye y colecciona Stellar Proof of Attendance de manera descentralizada
+              Crea, distribuye y colecciona tokens de asistencia verificables en blockchain
             </p>
           </div>
 
